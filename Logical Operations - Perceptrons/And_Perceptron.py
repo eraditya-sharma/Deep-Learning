@@ -4,7 +4,10 @@ weight1 = 1.0
 weight2 = 1.0
 bias = -2.0
 
+# Truth Table values for computation
 test_inputs = [(0, 0), (0, 1), (1, 0), (1, 1)]
+
+# Correct output value to compare the values computed by developers logic
 correct_outputs = [False, False, False, True]
 outputs = []
 
